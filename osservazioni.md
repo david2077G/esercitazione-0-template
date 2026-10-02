@@ -1,27 +1,27 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo:C20
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (David Gromada david2077G, Marco Languasco marcorlg):
 
 URL del repository condiviso:
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Abbiamo usato due computer diversi.
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato: ./hello
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: hello.c è il codice sorgente, il testo che modifichiamo, mentre hello è il file generato dal compilatore.
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: prima di modificare il codice, eseguendo ./hello non veniva stampato alcun messaggio sullo schermo
 
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione: dopo aver modificato il sorgente con la stringa esatta richiesta il programma ha stampato correttamente la frase seguita da una nuova riga.
 
 ## Step 1 — Git
 
